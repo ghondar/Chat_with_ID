@@ -1,0 +1,29 @@
+{
+  "chat": "chatnodejs",
+  "version": "0.1.0",
+  "description": "chat desarrollado en nodejs",
+  "main": "app.js",
+  "author": "Ghondar",
+  "dependencies": {
+    "express": "^3.2.6",
+    "logfmt": "^1.1.2",
+    "socket.io": "~0.9.14"
+  },
+  "name": "chatnodejs",
+  "scripts": {
+    "test": "chat desarrollado en nodejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abgv9221/chat.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "license": "Ghondar",
+  "bugs": {
+    "url": "https://github.com/abgv9221/chat/issues"
+  },
+  "homepage": "https://github.com/abgv9221/chat"
+}
