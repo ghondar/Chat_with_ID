@@ -1,0 +1,38 @@
+h2{
+    font-family: 'Limelight', cursive;
+}
+#cabecera{
+    margin: 0;
+}
+#todo{
+    margin-left: 0;
+}
+.row{
+    height: 70%;
+
+}
+#containerUsers{
+    height:90%;
+    overflow: auto;
+}
+#containerMessages{
+    height: 80%;
+    margin-bottom: 4%;
+}
+#cajita{
+    height: 90%;
+    overflow: auto;
+}
+.nombres{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+html,body{
+
+    margin:0px;
+
+    height:100%;
+
+}

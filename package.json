@@ -5,9 +5,8 @@
   "main": "app.js",
   "author": "Ghondar",
   "dependencies": {
-    "express": "^3.2.6",
-    "logfmt": "^1.1.2",
-    "socket.io": "~0.9.14"
+    "express.io": "latest",
+    "jade": "latest"
   },
   "name": "chatnodejs",
   "scripts": {
