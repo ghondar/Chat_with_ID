@@ -92,15 +92,7 @@ $(function()
             })
         }
     });
-    io.on("newUser", function (data){
-    	$("#chatUsers").html("");
-    	debugger;
-    	if(!isEmptyObject(data))
-        {            
-            $("#chatUsers").append("<p class='col-md-12 alert-info'>" + data.usuario + "</p>");
-            
-        }
-    });
+    
     $('#sendMsg').submit(function(e)
     {
         e.preventDefault();
