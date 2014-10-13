@@ -29,8 +29,11 @@ block content
 				div(class="panel-heading")
 					p(class="nombres")
 						| Mensajes de la Sala
-				div(id="cajita")
-					div(id="chatMsgs")
+			div(id="cajita")
+				div(id="chatMsgs")
+          di(id="post")
+  				  for post in posts
+              post.user.username: post.content
 		div(id="containerUsers", class="col-md-3")
 			div(class="panel panel-primary head")
 				div(class="panel-heading")
@@ -38,7 +41,7 @@ block content
 						| Usuarios
 			div(id="chatUsers")
 		div(id="escribirMensaje", class="col-md-9")
-			form(id="sendMsg", class="input-group", style="text-align: center; margin: auto; width: 95%")
+			form(id="sendMsg", class="input-group", method="POST", action="/app/create-post", style="text-align: center; margin: auto; width: 95%")
 				input(id="containerSendMessages", class="form-control input-lg message", type="text")
 				span(class="input-group-btn")
 					button(class="btn btn-lg btn-primary", type="submit")

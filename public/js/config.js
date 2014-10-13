@@ -26,18 +26,7 @@ function animateScroll()
 $(function()
 {
     animateScroll();
-    showModal("Formulario de inicio de sesión",renderForm());
-    $("#username").focus();
-    $("#containerSendMessages, #containerSendMessages input").on("focus click", function(e)
-    {
-        e.preventDefault();
-
-        if(!manageSessions.get("login"))
-        {
-            showModal("Formulario de inicio de sesión",renderForm(), false);
-        }
-
-    });
+    
     $("#loginBtn").submit(function(e)
     {
         e.preventDefault();
